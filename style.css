@@ -161,3 +161,28 @@ padding-right: 20px;
 	top: -150px !important;
 	left: 360px !important;
 }
+
+.arrows .prev {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+}
+
+.arrows .next {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+}
+
+.arrows button {
+  border: 1px solid #999;
+  background: transparent;
+  padding: 20px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.arrows button:hover {
+	color: #fff;
+	background: #000;
+}
